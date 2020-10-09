@@ -1,0 +1,36 @@
+*{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color:  yellow;
+}
+
+#chosen {
+    background-color: black;
+}
+
+.nice-border {
+    border: 3px solid gray;
+}
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+div p {
+    width: 33%;
+    margin: 0;
+}
